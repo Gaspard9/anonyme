@@ -1,4 +1,5 @@
-a="hi random person ._."
-print(len(a))
-print(a[5])
-print(a[5:12])
+a=int(input("enter a temperature"))
+if a>25:
+    print("it is summer")
+else:
+    print("it is winter")
